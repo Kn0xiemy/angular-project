@@ -1,0 +1,28 @@
+.nav-menu-container {
+  border: 1px red solid;
+  height: 5rem;
+  display: flex;
+  justify-content: end;
+}
+
+.nav-options {
+  display: flex;
+  gap: 5rem;
+  font-size: 1.5rem;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-menu-container ul li {
+  border-radius: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.5s;
+}
+
+.nav-menu-container ul li:hover {
+  color: blue;
+  border: 2px solid lightblue;
+  background-color: beige;
+  font-style: italic;
+  cursor: pointer;
+}
