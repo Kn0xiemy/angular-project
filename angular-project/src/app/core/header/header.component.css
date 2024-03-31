@@ -1,8 +1,7 @@
+/* NAV-MENU */
 .nav-menu-container {
-  border: 1px red solid;
   height: 5rem;
-  display: flex;
-  justify-content: end;
+  background-color: aliceblue;
 }
 
 .nav-options {
@@ -11,18 +10,31 @@
   font-size: 1.5rem;
   align-items: center;
   list-style-type: none;
+  justify-content: end;
+  padding-right: 1rem;
 }
 
 .nav-menu-container ul li {
   border-radius: 10px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  transition: 0.5s;
+
 }
 
 .nav-menu-container ul li:hover {
-  color: blue;
-  border: 2px solid lightblue;
-  background-color: beige;
+  color: darkgreen;
   font-style: italic;
   cursor: pointer;
+  transition: 0.5s;
+  background-color: antiquewhite;
+}
+
+
+/* BRANDING */
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 700;
 }
