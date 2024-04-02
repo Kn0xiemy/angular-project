@@ -1,0 +1,12 @@
+
+form h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  justify-content: center;
+}
